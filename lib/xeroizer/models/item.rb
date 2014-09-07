@@ -14,6 +14,7 @@ module Xeroizer
       
       guid    :item_id
       string  :code
+      string  :name
       string  :description
       
       belongs_to :purchase_details, :model_name => 'ItemPurchaseDetails'
